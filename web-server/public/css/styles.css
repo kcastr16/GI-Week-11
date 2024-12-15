@@ -5,3 +5,21 @@ h1 {
 img {
     width: 250px;
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: -200%;
+}
+
